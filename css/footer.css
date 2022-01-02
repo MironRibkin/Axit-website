@@ -1,0 +1,72 @@
+.footer__wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.link__wrapper {
+    display: flex;
+    margin: 30px auto 0;
+    flex-direction: row;
+    list-style: none;
+    width: 317px;
+    justify-content: space-between;
+}
+
+.link {
+    transition: 0.2s ease-in-out all;
+}
+
+
+.link > a {
+    display: block;
+    width: 30px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.link:hover {
+    filter: brightness(50%);
+}
+
+.facebook {
+    background: url("../img/footer-icons.png") 0 0;
+}
+
+.twitter {
+    background: url("../img/footer-icons.png") -44px 0;
+    left: 24px;
+}
+
+.google {
+    background: url("../img/footer-icons.png") -94px 0;
+}
+
+.pinterest {
+    background: url("../img/footer-icons.png") -140px 0;
+}
+
+.instagram {
+    background: url("../img/footer-icons.png") -190px 0;
+}
+
+.sl {
+    background: url("../img/footer-icons.png") -240px 0;
+}
+
+.rss {
+    background: url("../img/footer-icons.png") -287px 0;
+}
+
+.copyright__text {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 18px;
+}

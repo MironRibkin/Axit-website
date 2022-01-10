@@ -29,6 +29,16 @@
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 97px;
+    position: relative;
+}
+
+.banner-title::after {
+    content: '';
+    width: 170px;
+    position: absolute;
+    bottom: -56px;
+    left: 0;
+    border-bottom: 1px solid #fff;
 }
 
 .banner-subtitle {

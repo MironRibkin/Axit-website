@@ -1,0 +1,137 @@
+
+.pricing {
+    background: #F5F5F5;
+    width: 100%;
+    min-height: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing__title-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: Raleway, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+}
+
+.pricing__title-text::before {
+    content: "";
+    width: 170px;
+    height: 2px;
+    position: absolute;
+    border-bottom: 1px solid #E72424;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pricing__subtitle-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.pricing__wrapper{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-card__wrapper{
+    width: 370px;
+    height: 510px;
+    margin-top: 70px;
+    cursor: pointer;
+
+}
+
+.pricing-card__wrapper:hover {
+    transform: translateY(-20px);
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+
+.pricing-card__title {
+    width: 370px;
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F5F5F5;
+}
+
+.pricing-card__subtitle{
+    width: 370px;
+    height: 100px;
+    border: 2px solid #F5F5F5;
+    background-color: #333;
+    color: #fff;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-card__subtitle-text {
+    width: 370px;
+    height: 50px;
+    border: 2px solid #F5F5F5;
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-card__text {
+    width: 370px;
+    height: 50px;
+    background-color: #fff;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #86878B;
+    border: 2px solid #F5F5F5;
+}

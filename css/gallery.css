@@ -15,6 +15,7 @@
 
 .gallery-buttons {
     display: flex;
+    margin-top: 99px;
 }
 
 .tab__button {
@@ -24,7 +25,6 @@
     color: #333;
     cursor: pointer;
     border: 0;
-    border-bottom: 1px solid #C6CBCD;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -43,6 +43,18 @@
 
 .gallery-content {
     display: flex;
+    border: 1px solid #C6CBCD;
+    border-top: 0;
+    position: relative;
+}
+
+.gallery-content::before {
+    position: absolute;
+    content: '';
+    width: calc(100% - 201px);
+    border-top: 1px solid #C6CBCD;
+    right: 0;
+    top: 0;
 }
 
 .gallery-content__left {
@@ -50,10 +62,10 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
 }
 
 .gallery-left__title {
+    margin-left: 100px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -66,6 +78,8 @@
 
 .gallery-left__subtitle {
     margin-top: 76px;
+    margin-left: 100px;
+    margin-right: 30px;
     width: 570px;
     font-family: Raleway;
     font-style: normal;
@@ -77,6 +91,7 @@
 
 .gallery-button {
     margin-top: 27px;
+    margin-left: 100px;
     background: #EC7979;
     color: #fff;
     width: 270px;

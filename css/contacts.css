@@ -1,0 +1,96 @@
+.contacts {
+}
+
+.contacts__form {
+    display: flex;
+    justify-content: center;
+    height: 206px;
+    margin-top: 89px;
+    margin-bottom: 50px;
+}
+
+.contact_form__content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-right: 30px;
+}
+
+.contacts__input {
+    width: 571px;
+    height: 38px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    outline: #BDBDBD;
+}
+
+.contacts__input::placeholder {
+    color: #BDBDBD;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.textarea__message {
+    resize: none;
+    width: 569px;
+    height: 100%;
+    outline: #BDBDBD;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    border: 0;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.textarea__message::placeholder {
+    color: #BDBDBD;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.contacts__button__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.contacts__button {
+    background: #EC7979;
+    width: 370px;
+    height: 58px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.contacts__button:hover {
+    background: #AB4949;
+}
+
+.contacts__button:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
